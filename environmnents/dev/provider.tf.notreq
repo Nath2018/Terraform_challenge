@@ -1,0 +1,5 @@
+provider "aws_region" {
+    alias = "dev"
+    region = var.aws_region
+    profile = "dev" #optional if using named profile
+}
