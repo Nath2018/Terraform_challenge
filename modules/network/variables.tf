@@ -6,12 +6,12 @@ variable "region" {
     type = string
     description = "name of the region"
 }
-variable "a_subnet_cidr" {
+variable "private_subnet_cidr" {
     type = string
     description = "cidr of the private subnet"
 }
 
-variable "b_subnet_cidr" {
+variable "public_subnet_cidr" {
     type = string
     description = "cidr of the public subnet"
 }
